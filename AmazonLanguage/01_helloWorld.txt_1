@@ -5,20 +5,26 @@ variable x
 variable y
 variable index_obj
 
+: get_index_obj
+input_objects index_obj @ + @
+;
+
 0 i !
 i @
 input_objects_count @
 <
 while
+    ( set index_obj )
     i @ 3 * index_obj !
-    input_objects index_obj @ + @
-    type !
+    get_index_obj type !
+
+    ( set x )
     index_obj @ 1 + index_obj !
-    input_objects index_obj @ + @
-    x !
+    get_index_obj x !
+
+    ( set y )
     index_obj @ 1 + index_obj !
-    input_objects index_obj @ + @
-    y !
+    get_index_obj y !
 
     type @
     4 =
