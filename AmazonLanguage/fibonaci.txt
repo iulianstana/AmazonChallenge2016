@@ -1,0 +1,27 @@
+(iterative version of Fibonacci)
+variable a
+variable b
+variable tmp
+variable i
+: fib (n --- n) dup 2 >=
+if
+  0 a ! (a = 0)
+  1 b ! (b = 1)
+  i ! (put fib arg in i stack empty) [9]
+  i @ (i = 9)
+  while
+    a @   (pune valoarea a pe stiva)
+    b @   (pune valoarea b pe stiva)
+    +     ( a + b => pe stiva)
+    tmp ! ( tmp = a + b) ultima valoare)
+    b @   ( pune valoarea lui pe b pe stiva)
+    a !   ( extrage in a valoarea lui b)
+    tmp @ ( pune in stiva valoare lui tmp)
+    b !   ( extrage in b valoare lui tmp)
+    i @   ( pune pe stiva valoarea lui i)
+    1 -   ( pune pe stiva valoarea lui 1 si scade)
+    i !   ( extrage noua valoare a lui i)
+    i @   ( pun pe stiva valoarea lui i)
+  repeat
+  a @
+then ;
