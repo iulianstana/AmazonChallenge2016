@@ -1,0 +1,52 @@
+variable x
+variable y
+
+variable result
+
+input_objects 1 + @
+x !
+input_objects 2 + @
+y !
+
+x @
+1 =
+if
+    y @
+    1 =
+    if
+        2 result !
+    else
+        y @
+        2 =
+        if
+            4 result !
+        else
+            2 result !
+        then
+    then
+else
+    x @
+    2 =
+    if
+        y @
+        2 =
+        if
+            1 result !
+        else
+            4 result !
+        then
+    else
+        x @
+        3 =
+        if
+            y @
+            2 =
+            if
+                -1 result !
+            else
+                2 result !
+            then
+        then
+    then
+then
+result @
