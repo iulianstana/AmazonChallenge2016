@@ -1,0 +1,79 @@
+variable result
+variable i
+variable type
+variable x
+variable y
+variable index_obj
+
+0 i !
+i @
+input_objects_count @
+<
+while
+    i @ 3 * index_obj !
+    input_objects index_obj @ + @
+    type !
+    index_obj @ 1 + index_obj !
+    input_objects index_obj @ + @
+    x !
+    index_obj @ 1 + index_obj !
+    input_objects index_obj @ + @
+    y !
+
+    type @
+    4 =
+    if
+        x @
+        1 =
+        if
+            y @
+            1 =
+            if
+                2 result !
+            else
+                y @
+                2 =
+                if
+                    4 result !
+                else
+                    2 result !
+                then
+            then
+        else
+            x @
+            2 =
+            if
+                y @
+                2 =
+                if
+                    1 result !
+                else
+                    4 result !
+                then
+            else
+                x @
+                3 =
+                if
+                    y @
+                    2 =
+                    if
+                        -1 result !
+                    else
+                        2 result !
+                    then
+                then
+            then
+        then
+        result @
+
+    then
+
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < input_objects_count )
+    i @
+    input_objects_count @
+    <
+repeat
+result @

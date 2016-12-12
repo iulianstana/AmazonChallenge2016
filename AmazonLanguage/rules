@@ -1,0 +1,26 @@
+(input)
+(input_rows: conține numărul de rânduri specific hărții.)
+(input_cols: conține numărul de coloane specific hărții.)
+(input_objects_count: conține numărul de obiecte de pe hartă)
+(input_objects: un array de lungime 3 * input_objects_count)
+(type, x, y)
+
+(1 – obstacol)
+(2 – pachet poziție curentă)
+(3 – locație finală dorită de pachet)
+(4 – robotul tău)
+(5 – robotul vagabond)
+
+
+
+(output)
+(0 – staționare)
+(1 – mută robotul în sus)
+(2 – mută robotul în jos)
+(3 – mută robotul în stânga)
+(4 – mută robotul în dreapta)
+(-1 – sfârșitul mutărilor robotului;)
+
+
+
+(vreau sa stiu care este robotul meu din obstacole)
