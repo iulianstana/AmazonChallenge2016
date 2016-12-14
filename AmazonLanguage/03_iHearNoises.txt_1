@@ -1,0 +1,124 @@
+variable result
+variable i
+variable j
+variable type
+variable x
+variable y
+variable index_obj
+variable object_type
+variable object_number
+variable packs_obj 4 cells
+variable final_obj
+variable on_final
+variable test
+
+: get_index_obj
+input_objects index_obj @ + @
+;
+
+: get_object_pos
+( get arg)
+object_type !
+
+( initialize values)
+0 i !
+0 object_number !
+
+( test while condition )
+i @ input_objects_count @ <
+while
+    ( set index_obj )
+    i @ 3 * index_obj !
+    get_index_obj type !
+
+    ( set x )
+    index_obj @ 1 + index_obj !
+    get_index_obj x !
+
+    ( set y )
+    index_obj @ 1 + index_obj !
+    get_index_obj y !
+
+    type @
+    object_type @ =
+    if
+        ( increment object_number and save pos )
+        object_number @ 1 + object_number !
+        x @ y @
+    then
+
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < input_objects_count )
+    i @
+    input_objects_count @
+    <
+repeat
+object_number @
+; ( pe stiva o sa am x1 y1, x2 y2 ... xN, yN, N )
+
+: delivered_packages
+( initialize values)
+0 i !
+object_number !
+
+( test while condition )
+i @ object_number @ <
+while
+    y ! x !
+    x @ packs_obj i @ 2 * + !
+    y @ packs_obj i @ 2 * 1 + + !
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < object_number )
+    i @ object_number @ <
+repeat
+
+0 i !
+object_number !
+
+( test while condition )
+i @ object_number @ <
+while
+    y ! x !
+
+    0 j !
+    j @ object_number @ <
+    while
+        x @    packs_obj j @ 2 * + @
+        =
+        y @    packs_obj j @ 2 * 1 + + @
+        =
+        =
+        if
+            on_final @ 1 + on_final !
+        then
+
+        j @ 1 + j !
+        j @ object_number @ <
+    repeat
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < object_number )
+    i @ object_number @ <
+repeat
+;
+
+0 on_final !
+3 get_object_pos ( final location )
+test ! test @
+2 get_object_pos ( package location )
+
+delivered_packages
+
+
+0 on_final @ =
+if
+    3 result !
+else
+    4 result !
+then
+result @
