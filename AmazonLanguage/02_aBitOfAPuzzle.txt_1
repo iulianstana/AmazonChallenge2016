@@ -1,0 +1,116 @@
+variable result
+variable i
+variable j
+variable type
+variable x
+variable y
+variable index_obj
+variable object_type
+variable object_number
+variable packs_obj 4 cells
+variable final_obj
+variable on_final
+variable test
+
+variable maps 2000 cells
+variable mapd 2000 cells
+variable map_len
+variable map_pos
+variable value
+variable solved_value
+variable empty
+
+( 0 = empty space )
+( 1 = wall / obstacol )
+( 2 = pack )
+( 3 = final_place )
+( 4 = my robot )
+( 5 = enemy robot / also wall )
+
+
+: init_maps
+input_rows @ input_cols @ * 1 + map_len !
+0 i !
+i @ map_len @ <
+while
+    0 maps i @ + !
+    0 mapd i @ + !
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < input_objects_count )
+    i @ input_objects_count @ <
+repeat
+
+0 i !
+i @ input_objects_count @ <
+while
+    i @ 3 * index_obj !
+
+    ( get type, x, y )
+    input_objects index_obj @ + @ type !
+    input_objects index_obj @ 1 + + @ x !
+    input_objects index_obj @ 2 + + @ y !
+
+    x @ input_rows @ * y @ + map_pos !
+    type @ 1 = if
+        1 maps map_pos @ + !
+    then
+    type @ 2 = if
+        2 mapd map_pos @ + !
+    then
+    type @ 3 = if
+        3 maps map_pos @ + !
+    then
+    type @ 4 = if
+        4 mapd map_pos @ + !
+    then
+    type @ 5 = if
+        1 maps map_pos @ + !
+    then
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < input_objects_count )
+    i @ input_objects_count @ <
+repeat
+;
+
+
+: is_solved
+input_rows @ input_cols @ * map_len !
+0 i !
+0 solved_value !
+
+i @ map_len @ <
+while
+    maps i @ + @ value ! value @ 3 =
+    mapd i @ + @ value ! value @ 2 =
+    =
+    if
+        0 empty !
+    else
+        1 solved_value !
+    then
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < map_len )
+    i @ map_len @ <
+repeat
+
+solved_value @
+;
+
+
+init_maps
+
+is_solved
+if
+    2 result !
+else
+    4 result !
+then
+
+
+result @
