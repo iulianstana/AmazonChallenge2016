@@ -98,6 +98,7 @@ if
     then
 then
 
+
 input_rows @ 9 =
 if
     2 2 check_box_position
@@ -105,48 +106,37 @@ if
     if
         player_y @ 7 =
         if
-            player_x @ 5 =
+            4 result !
+        then
+
+        player_x @ 5 =
+        if
+            1 result !
+        then
+
+        player_y @ 2 =
+        if
+            3 result !
+            player_x @ 3 =
             if
                 1 result !
-            else
+            then
+            player_x @ 1 =
+            if
                 4 result !
             then
-        else
-            player_x @ 5 =
+        then
+
+        player_y @ 1 =
+        if
+            player_x @ 1 =
             if
-                player_y @ 2 =
-                if
-                    3 result !
-                else
-                    1 result !
-                then
+                2 result !
             else
-                player_y @ 2 =
-                if
-                    player_x @ 4 =
-                    if
-                        3 result !
-                    then
-                    player_x @ 3 =
-                    if
-                        2 result !
-                    then
-                    player_x @ 1 =
-                    if
-                        4 result !
-                    then
-                then
-                player_y @ 3 =
-                if
-                    player_x @ 1 =
-                    if
-                        1 result !
-                    else
-                        3 result !
-                    then
-                then
+                3 result !
             then
         then
+
     else ( check 2 2 box )
         player_x @ 7 =
         if
@@ -154,9 +144,12 @@ if
         else
             player_x @ 6 =
             if
-                1 result !
-            else
-                4 result !
+                player_y @ 2 =
+                if
+                    1 result !
+                else
+                    4 result !
+                then
             then
         then
     then
@@ -209,6 +202,22 @@ if
             then
         then
 
+    then
+then
+
+input_rows @ 10 =
+if
+    5 8 check_box_position
+    solved_value @ 0 =
+    if
+        player_x @ 5 =
+        if
+            2 result !
+        else
+            4 result !
+        then
+    else
+        -1 result !
     then
 then
 
