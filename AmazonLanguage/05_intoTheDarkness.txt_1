@@ -96,59 +96,58 @@ if
     else
         3 result !
     then
-else
+then
 
-    input_rows @ 9 =
-    if
+input_rows @ 9 =
+if
     2 2 check_box_position
     solved_value @ 1 =
     if
-
-    player_y @ 7 =
-    if
-        player_x @ 5 =
+        player_y @ 7 =
         if
-            1 result !
-        else
-            4 result !
-        then
-    else
-        player_x @ 5 =
-        if
-            player_y @ 2 =
+            player_x @ 5 =
             if
-                3 result !
-            else
                 1 result !
+            else
+                4 result !
             then
         else
-            player_y @ 2 =
+            player_x @ 5 =
             if
-                player_x @ 4 =
+                player_y @ 2 =
                 if
                     3 result !
-                then
-                player_x @ 3 =
-                if
-                    2 result !
-                then
-                player_x @ 1 =
-                if
-                    4 result !
-                then
-            then
-            player_y @ 3 =
-            if
-                player_x @ 1 =
-                if
-                    1 result !
                 else
-                    3 result !
+                    1 result !
+                then
+            else
+                player_y @ 2 =
+                if
+                    player_x @ 4 =
+                    if
+                        3 result !
+                    then
+                    player_x @ 3 =
+                    if
+                        2 result !
+                    then
+                    player_x @ 1 =
+                    if
+                        4 result !
+                    then
+                then
+                player_y @ 3 =
+                if
+                    player_x @ 1 =
+                    if
+                        1 result !
+                    else
+                        3 result !
+                    then
                 then
             then
         then
-    then ( check 2 2 box )
-    else
+    else ( check 2 2 box )
         player_x @ 7 =
         if
             2 result !
@@ -159,13 +158,13 @@ else
             else
                 4 result !
             then
-
         then
     then
+then
 
 
-
-    else (col is not 9 )
+input_rows @ 11 =
+if
     2 6 check_box_position
     solved_value @ 1 =
     if
@@ -183,13 +182,35 @@ else
                 1 result !
             then
         then
-    then
-
+    else
+        6 6 check_box_position
+        solved_value @ 1 =
+        if
+            player_x @ 2 =
+            if
+                player_y @ 9 =
+                if
+                    4 result !
+                else
+                    2 result !
+                then
+            else
+                player_y @ 9 =
+                if
+                    player_x @ 6 =
+                    if
+                        1 result !
+                    else
+                        4 result !
+                    then
+                else
+                    1 result !
+                then
+            then
+        then
 
     then
 then
-
-
 
 
 
