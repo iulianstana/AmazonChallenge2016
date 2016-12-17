@@ -1,0 +1,318 @@
+{
+  "rows": 8,
+  "cols": 10,
+  "player": {
+    "position": {
+      "x": 7,
+      "y": 5
+    },
+    "identifier": "@"
+  },
+  "adversary": {
+    "position": {
+      "x": 1,
+      "y": 5
+    },
+    "identifier": "#"
+  },
+  "objects": [
+    {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 7
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 7
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "identifier": "B01",
+      "type": "Box"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 5
+      },
+      "identifier": "B03",
+      "type": "Box"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 1
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 5
+      },
+      "type": "Storage"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 3
+      },
+      "type": "Storage"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 5
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 3
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 1
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "identifier": "B04",
+      "type": "Box"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 6
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 6
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 6
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 4
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 6
+      },
+      "type": "Storage"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 4
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 6
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 6
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 4
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 4
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 4
+      },
+      "identifier": "B02",
+      "type": "Box"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 5
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 7
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 7
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 3
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 7
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "type": "Storage"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 7
+      },
+      "type": "Wall"
+    }
+  ]
+}

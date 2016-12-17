@@ -1,0 +1,204 @@
+{
+  "rows": 3,
+  "cols": 10,
+  "player": {
+    "position": {
+      "x": 6,
+      "y": 1
+    },
+    "identifier": "@"
+  },
+  "adversary": {
+    "position": {
+      "x": 1,
+      "y": 1
+    },
+    "identifier": "#"
+  },
+  "objects": [
+    {
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "type": "Storage"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 1
+      },
+      "identifier": "B01",
+      "type": "Box"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 1
+      },
+      "type": "Storage"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 1
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "identifier": "B02",
+      "type": "Box"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 7,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 2
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 9,
+        "y": 0
+      },
+      "type": "Wall"
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "type": "Wall"
+    }
+  ]
+}

@@ -1,0 +1,4203 @@
+[
+  {
+    "rows": 14,
+    "cols": 26,
+    "player": {
+      "position": {
+        "x": 4,
+        "y": 3
+      },
+      "identifier": "@"
+    },
+    "adversary": {
+      "position": {
+        "x": 2,
+        "y": 12
+      },
+      "identifier": "#"
+    },
+    "objects": [
+      {
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 8
+        },
+        "identifier": "B11",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 8
+        },
+        "identifier": "B12",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 6
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 6
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 10
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 7
+        },
+        "identifier": "B10",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 10
+        },
+        "identifier": "B15",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 10
+        },
+        "identifier": "B16",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 11
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 8
+        },
+        "identifier": "B13",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 8
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 8
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 4
+        },
+        "identifier": "B03",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 12
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 9
+        },
+        "identifier": "B14",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 4
+        },
+        "identifier": "B04",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 4
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "identifier": "B01",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 12
+        },
+        "identifier": "B19",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 5
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 10
+        },
+        "identifier": "B17",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 3
+        },
+        "identifier": "B02",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 10
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 10
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 12
+        },
+        "identifier": "B20",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 6
+        },
+        "identifier": "B07",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 6
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 11
+        },
+        "identifier": "B18",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 6
+        },
+        "identifier": "B08",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 4
+        },
+        "identifier": "B05",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 7
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 5
+        },
+        "identifier": "B06",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 12
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 12
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 4
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 4
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 12
+        },
+        "identifier": "B21",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 8
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 6
+        },
+        "identifier": "B09",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 13
+        },
+        "type": "Wall"
+      }
+    ]
+  },
+  {
+    "rows": 8,
+    "cols": 19,
+    "player": {
+      "position": {
+        "x": 1,
+        "y": 6
+      },
+      "identifier": "@"
+    },
+    "objects": [
+      {
+        "position": {
+          "x": 8,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 1
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 5
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "identifier": "B13",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "identifier": "B01",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 1
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 4
+        },
+        "identifier": "B14",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 5
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 1
+        },
+        "identifier": "B02",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 1
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 5
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 4
+        },
+        "identifier": "B15",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 1
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 1
+        },
+        "identifier": "B03",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 4
+        },
+        "identifier": "B16",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 1
+        },
+        "identifier": "B04",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 2
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 5
+        },
+        "identifier": "B17",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 2
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "identifier": "B05",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 2
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 5
+        },
+        "identifier": "B18",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 2
+        },
+        "identifier": "B06",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 2
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 5
+        },
+        "identifier": "B19",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 2
+        },
+        "identifier": "B07",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 2
+        },
+        "identifier": "B08",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 5
+        },
+        "identifier": "B20",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "identifier": "B09",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 4
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 4
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 3
+        },
+        "identifier": "B10",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 4
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 3
+        },
+        "identifier": "B11",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 4
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 3
+        },
+        "identifier": "B12",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 5
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 7
+        },
+        "type": "Wall"
+      }
+    ]
+  },
+  {
+    "rows": 17,
+    "cols": 27,
+    "player": {
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "identifier": "@"
+    },
+    "objects": [
+      {
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 10
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 8
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 9
+        },
+        "identifier": "B13",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 11
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 7
+        },
+        "identifier": "B04",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 10
+        },
+        "identifier": "B17",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 10
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 8
+        },
+        "identifier": "B08",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 11
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 11
+        },
+        "identifier": "B21",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 9
+        },
+        "identifier": "B12",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 10
+        },
+        "identifier": "B16",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 7
+        },
+        "identifier": "B03",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 8
+        },
+        "identifier": "B07",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 11
+        },
+        "identifier": "B20",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 16
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 9
+        },
+        "identifier": "B11",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 4
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 7
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 7
+        },
+        "identifier": "B02",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 10
+        },
+        "identifier": "B15",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 16
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 8
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 14
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 11
+        },
+        "identifier": "B19",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 8
+        },
+        "identifier": "B06",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 7
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 16
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 14
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 10
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 8
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "identifier": "B01",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 9
+        },
+        "identifier": "B10",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 11
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 10
+        },
+        "identifier": "B14",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 16
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 7
+        },
+        "identifier": "B05",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 10
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 8
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 11
+        },
+        "identifier": "B18",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 8
+        },
+        "identifier": "B09",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 11
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 7
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "type": "Wall"
+      }
+    ]
+  },
+  {
+    "rows": 18,
+    "cols": 16,
+    "player": {
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "identifier": "@"
+    },
+    "objects": [
+      {
+        "position": {
+          "x": 8,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 3
+        },
+        "identifier": "B04",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 16
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 16
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 9
+        },
+        "identifier": "B11",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 15
+        },
+        "identifier": "B18",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 14
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 6
+        },
+        "identifier": "B05",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 12
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 6
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 15
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 12
+        },
+        "identifier": "B16",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "identifier": "B03",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 9
+        },
+        "identifier": "B10",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 15
+        },
+        "identifier": "B17",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 16
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 12
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 8
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 6
+        },
+        "identifier": "B08",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 6
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 12
+        },
+        "identifier": "B15",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 15
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "identifier": "B02",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 9
+        },
+        "identifier": "B09",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 9
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 1
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 12
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 10
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 6
+        },
+        "identifier": "B07",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 6
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 2
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 15
+        },
+        "identifier": "B20",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 13
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 12
+        },
+        "identifier": "B14",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 15
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "identifier": "B01",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 5
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 11
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 9
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 3
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 3
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 14
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 14
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 9
+        },
+        "identifier": "B12",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 15
+        },
+        "identifier": "B19",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 12
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 6
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 12
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 6
+        },
+        "identifier": "B06",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 6
+        },
+        "type": "Storage"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 4
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 0
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 7
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 15
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 12
+        },
+        "identifier": "B13",
+        "type": "Box"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 17
+        },
+        "type": "Wall"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 15
+        },
+        "type": "Storage"
+      }
+    ]
+  }
+]
