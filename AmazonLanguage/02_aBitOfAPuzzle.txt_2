@@ -1,0 +1,327 @@
+variable result
+variable i
+variable type
+variable x
+variable y
+variable arg_x
+variable arg_y
+variable player_x
+variable player_y
+variable index_obj
+
+variable solved_value
+variable empty
+variable return_value
+
+( 0 = empty space )
+( 1 = wall / obstacol )
+( 2 = pack )
+( 3 = final_place )
+( 4 = my robot )
+( 5 = enemy robot / also wall )
+
+
+: init_robot_pos
+
+0 i !
+
+i @ input_objects_count @ <
+while
+    i @ 3 * index_obj !
+
+    ( get type, x, y )
+    input_objects index_obj @ + @ type !
+    input_objects index_obj @ 1 + + @ x !
+    input_objects index_obj @ 2 + + @ y !
+
+    type @ 4 =
+    if
+        ( init robot )
+        x @ player_x !
+        y @ player_y !
+    then
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < input_objects_count )
+    i @ input_objects_count @ <
+repeat
+;
+
+
+: check_box_position
+arg_y ! arg_x !
+0 i !
+0 solved_value !
+
+i @ input_objects_count @ <
+while
+    i @ 3 * index_obj !
+
+    ( get type, x, y )
+    input_objects index_obj @ + @ type !
+    input_objects index_obj @ 1 + + @ x !
+    input_objects index_obj @ 2 + + @ y !
+
+    type @ 2 =
+    if
+        arg_x @ x @ =
+        if
+            arg_y @ y @ =
+            if
+                1 solved_value !
+            then
+        then
+    then
+
+    (i ++ )
+    i @ 1 + i !
+    ( i < input_objects_count )
+    i @ input_objects_count @ <
+repeat
+;
+
+
+init_robot_pos
+
+
+11 3 check_box_position
+solved_value @ 0 =
+if
+    12 4 check_box_position
+    solved_value @ 1 =
+    if
+        player_x @ 9 =
+        if
+            player_y @ 4 =
+            if
+                3 result !
+            else
+                player_y @ 6 =
+                if
+                    4 result !
+                else
+                    2 result !
+                then
+            then
+        else
+            player_x @ 8 =
+            if
+                player_y @ 4 =
+                if
+                    3 result !
+                else
+                    4 result !
+                then
+            else
+                player_x @ 7 =
+                if
+                    player_y @ 6 =
+                    if
+                        4 result !
+                    else
+                        2 result !
+                    then
+                else
+                    player_x @ 12 =
+                    if
+                        1 result !
+                    else
+                        4 result !
+                    then
+                then
+
+            then
+        then
+    else
+
+        12 3 check_box_position
+        solved_value @ 1 =
+        if
+            player_x @ 12 =
+            if
+                4 result !
+            else
+                player_x @ 13 =
+                if
+                    player_y @ 4 =
+                    if
+                        1 result !
+                    else
+                        3 result !
+                    then
+                then
+            then
+        then
+    then
+else
+
+7 5 check_box_position
+solved_value @ 0 =
+    if
+        10 7 check_box_position
+        solved_value @ 1 =
+        if
+            player_x @ 12 =
+            if
+                player_y @ 7 =
+                if
+                    3 result !
+                else
+                    2 result !
+                then
+            else
+                3 result !
+            then
+        else
+
+        9 7 check_box_position
+        solved_value @ 1 =
+        if
+            player_x @ 10 =
+            if
+                player_y @ 8 =
+                if
+                    3 result !
+                else
+                    2 result !
+                then
+            else
+                player_x @ 9 =
+                if
+                    player_y @ 8 =
+                    if
+                        1 result !
+                    then
+                then
+            then
+        else
+
+        9 6 check_box_position
+        solved_value @ 1 =
+        if
+            player_x @ 9 =
+            if
+                4 result !
+            else
+                player_x @ 10 =
+                if
+                    player_y @ 7 =
+                    if
+                        1 result !
+                    else
+                        3 result !
+                    then
+                then
+            then
+        else
+
+            7 6 check_box_position
+            solved_value @ 1 =
+            if
+                player_x @ 8 =
+                if
+                    player_y @ 6 =
+                    if
+                        4 result !
+                    else
+                        3 result !
+                    then
+                else
+                    player_x @ 9 =
+                    if
+                        player_y @ 8 =
+                        if
+                            3 result !
+                        else
+                            2 result !
+                        then
+                    else
+                        player_x @ 7 =
+                        if
+                            1 result !
+                        then
+                    then
+                then
+            then ( 7 6 check_box_position )
+        then ( 9 6 check_box_position )
+        then ( 9 7 check_box_position )
+        then ( 10 7 check_box_position )
+
+else
+
+3 7 check_box_position
+solved_value @ 1 =
+if
+    player_x @ 7 =
+    if
+        player_y @ 8 =
+        if
+            3 result !
+        else
+            2 result !
+        then
+    else
+        player_x @ 3 =
+        if
+            player_y @ 8 =
+            if
+                1 result !
+            else
+                3 result !
+            then
+        then
+    then
+else
+
+1 result !
+3 2 check_box_position
+solved_value @ 1 =
+if
+    player_x @ 3 =
+    if
+        player_y @ 3 =
+        if
+           4 result !
+        then
+    else
+        player_y @ 3 =
+        if
+            1 result !
+        else
+            3 result !
+        then
+    then
+else
+
+2 2 check_box_position
+solved_value @ 1 =
+if
+    3 result !
+else
+
+1 2 check_box_position
+solved_value @ 1 =
+if
+    player_x @ 2 =
+    if
+        player_y @ 2 =
+        if
+            2 result !
+        else
+            3 result !
+        then
+    else
+        1 result !
+    then
+
+then ( 1 2 check_box_position )
+then ( 2 2 check_box_position )
+then ( 3 2 check_box_position )
+then ( 3 7 check_box_position )
+then
+then
+
+
+
+result @
